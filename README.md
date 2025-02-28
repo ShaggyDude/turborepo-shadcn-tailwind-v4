@@ -19,7 +19,14 @@ pnpm install
 turbo dev --filter nextjs
 ```
 
-## Project Structure
+OR
+
+Use this button:
+
+[<img width="170" alt="img" src="https://github.com/user-attachments/assets/41c60816-2cd9-4f1f-946d-e29bb6fb15e9" />](https://github.com/new?template_name=turborepo-shadcn-tailwind-v4&template_owner=bytaesu)
+
+
+## Boilerplate Structure
 
 ```
 .
