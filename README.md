@@ -1,4 +1,4 @@
-# 📔 Turborepo + Shadcn UI + TailwindCSS v4 + Next.js Boilerplate
+# Turborepo + Shadcn UI + TailwindCSS v4 + Next.js Boilerplate
 
 A latest, fully configured boilerplate for building applications with Turborepo, Shadcn UI, TailwindCSS v4, and Next.js.
 
@@ -41,11 +41,11 @@ Use this button:
 │   ├── typescript-config     # TypeScript configuration
 │   ├── ui                    # Internal UI package (including shadcn)
 │       ├── src
-│           ├── components    # components
-│           ├── hooks         # hooks
-│           ├── lib           # lib
-│           ├── styles        # CSS and styling files
-│           └── components.json  # Shadcn cli configuration
+│       │    ├── components    # components
+│       │    ├── hooks         # hooks
+│       │    ├── lib           # lib
+│       │    └── styles        # CSS and styling files
+│       │── components.json  # Shadcn CLI configuration
 │       └── ...
 │   └── ...
 └── ...
@@ -61,7 +61,7 @@ The most important part of this setup is the `/src/app/globals.css` file in the 
 @import 'tailwindcss';
 @import '@repo/ui/styles/default.css';
 
-@source '../../../../packages/ui';
+@source '../../node_modules/@repo/ui';
 ```
 
 ## License
