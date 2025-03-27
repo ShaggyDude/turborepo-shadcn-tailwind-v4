@@ -9,14 +9,13 @@
     "cssVariables": true,
     "baseColor": "neutral",
     "css": "src/styles/default.css"
-
   },
   "aliases": {
-    "components": "@repo/ui/components",
-    "ui": "@repo/ui/components/base",
-    "utils": "@repo/ui/lib/utils",
-    "lib": "@repo/ui/lib",
-    "hooks": "@repo/ui/hooks"
+    "components": "@/components",
+    "ui": "@/components/base",
+    "utils": "@/lib/utils",
+    "lib": "@/lib",
+    "hooks": "@/hooks"
   },
   "iconLibrary": "lucide"
 }
