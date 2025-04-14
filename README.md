@@ -1,10 +1,10 @@
-# Turborepo + Shadcn UI + TailwindCSS v4 + Next.js Boilerplate
+# Turborepo + Shadcn/ui + Tailwind CSS v4 + Next.js Boilerplate
 
-A latest, fully configured boilerplate for building applications with Turborepo, Shadcn UI, TailwindCSS v4, and Next.js.
+A latest, fully configured boilerplate for building applications with Turborepo, Shadcn/ui, Tailwind CSS v4, and Next.js.
 
 ## Overview
 
-I created this setup to share after completing the migration process from TailwindCSS v3 to v4 in a monorepo structure, as I found it difficult to find documentation on this. It offers a ready-to-use configuration with Turborepo, TailwindCSS v4, Shadcn UI, and Next.js.
+I created this setup to share after completing the migration process from Tailwind CSS v3 to v4 in a monorepo structure, as I found it difficult to find documentation on this. It offers a ready-to-use configuration with Turborepo, Tailwind CSS v4, Shadcn/ui, and Next.js.
 
 ## Getting Started
 
