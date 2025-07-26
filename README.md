@@ -1,4 +1,4 @@
-# Boilerplate: Turborepo + Shadcn/ui + Tailwind CSS v4 + Next.js
+# Turborepo + Shadcn/ui + Tailwind CSS v4 + Next.js
 
 ## Introduction
 
@@ -7,7 +7,7 @@
 - Since I can’t always keep this up to date, please adjust versions like `react`, `next` and others as needed.
 
 - Please use this with a basic understanding of Monorepo concepts using Turborepo.  
-[-> Turborepo Docs](https://turborepo.com/docs)
+  [-> Turborepo Docs](https://turborepo.com/docs)
 
 ## Getting Started
 
