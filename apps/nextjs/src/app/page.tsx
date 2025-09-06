@@ -27,15 +27,17 @@ export default function DemoPage() {
 ------------------------------------------*/
 const DemoCard = () => {
   return (
-    <div className="flex flex-col items-center space-y-4 rounded-xl border p-6 shadow-2xl bg-background">
-      <h1 className="text-2xl text-center">
-        <span className="block">Turborepo</span>
-        <span className="block">Shadcn/ui</span>
-        <span className="block">Tailwind CSS v4</span>
-      </h1>
+    <div className="grid place-content-center space-y-8 rounded-xl border p-6 shadow-2xl bg-background min-w-4xl min-h-96 text-2xl">
+        <s className="block">Turborepo</s>
+        <s className="block">Next.js</s>
+        <s className="block">Shadcn/ui</s>
+        <s className="block">Tailwind CSS v4</s>
 
       <p>Here is your shadcn button.</p>
-      <Button onClick={() => alert('🎉Clicked')}>Button</Button>
+      <div className="flex gap-4">
+        <Button onClick={() => alert('🎉Clicked')}>Default Button</Button>
+        <Button variant="supabase" onClick={() => alert('🚀 Start your project!')}>Start your project</Button>
+      </div>
     </div>
   );
 };

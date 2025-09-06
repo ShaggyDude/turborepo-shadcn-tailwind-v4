@@ -26,37 +26,47 @@ cd packages/ui
 pnpm dlx shadcn@latest add [component]
 ```
 
-or
-
-Use this button:
-
-[<img width="170" alt="img" src="https://github.com/user-attachments/assets/28541bbe-2c49-4c8e-8d09-84ff13c29a54" />](https://github.com/new?template_name=turborepo-shadcn-tailwind-v4&template_owner=bytaesu)
-
 ## Structure
 
-```
 .
 ├── apps
-│   └── nextjs                # Next.js application
-│       ├── src
-│       │   ├── app
-│       │   │   └── globals.css # Critical configuration here
-│       │   └── ...
-│       └── ...
+│   └── nextjs
+│       ├── eslint.config.mjs
+│       ├── next-env.d.ts
+│       ├── next.config.ts
+│       ├── package.json
+│       ├── postcss.config.mjs
+│       ├── README.md
+│       ├── src
+│       └── tsconfig.json
+├── bun.lock
+├── bunfig.json
+├── LICENSE
+├── package.json
 ├── packages
-│   ├── eslint-config         # ESLint configuration
-│   ├── typescript-config     # TypeScript configuration
-│   ├── ui                    # Internal UI package (including shadcn)
-│       ├── src
-│       │    ├── components
-│       │    ├── hooks
-│       │    ├── lib
-│       │    └── styles
-│       │── components.json  # Shadcn CLI configuration
-│       └── ...
-│   └── ...
-└── ...
-```
+│   ├── eslint-config
+│   │   ├── base.js
+│   │   ├── next.js
+│   │   ├── package.json
+│   │   ├── react-internal.js
+│   │   └── README.md
+│   ├── typescript-config
+│   │   ├── base.json
+│   │   ├── nextjs.json
+│   │   ├── package.json
+│   │   ├── react-library.json
+│   │   └── README.md
+│   └── ui
+│       ├── components.json
+│       ├── eslint.config.mjs
+│       ├── package.json
+│       ├── postcss.config.mjs
+│       ├── README.md
+│       ├── src
+│       └── tsconfig.json
+├── pnpm-workspace.yaml
+├── README.md
+└── turbo.json
 
 ## Critical Configuration
 
@@ -74,3 +84,16 @@ The most important part of this setup is the `/src/app/globals.css` file in the 
 ## License
 
 MIT
+
+
+# 1. Epics Database
+
+| Property Name    | Type         | Mandatory | Description                                | Example Usage                 |
+|------------------|--------------|-----------|--------------------------------------------|-------------------------------|
+| Title            | Title        | Yes       | Epic name or goal                          | "User Onboarding Flow"        |
+| Description      | Text         | Optional  | Plain English summary                      | "Streamline new user signup"  |
+| Status           | Select       | Yes       | Workflow status                            | Do, Doing, Done               |
+| Owner            | Person       | Optional  | Person responsible                         | Team member assigned          |
+| Due Date         | Date         | Optional  | Target completion date                     | 2025-12-31                    |
+| Created Time     | Created time | Yes       | Auto timestamp                             | Auto-generated                |
+| Last Edited Time | Last edited  | Yes       | Auto timestamp                             | Auto-generated                |

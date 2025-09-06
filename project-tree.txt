@@ -1,0 +1,41 @@
+.
+├── apps
+│   └── nextjs
+│       ├── eslint.config.mjs
+│       ├── next-env.d.ts
+│       ├── next.config.ts
+│       ├── package.json
+│       ├── postcss.config.mjs
+│       ├── README.md
+│       ├── src
+│       └── tsconfig.json
+├── bun.lock
+├── bunfig.json
+├── LICENSE
+├── package.json
+├── packages
+│   ├── eslint-config
+│   │   ├── base.js
+│   │   ├── next.js
+│   │   ├── package.json
+│   │   ├── react-internal.js
+│   │   └── README.md
+│   ├── typescript-config
+│   │   ├── base.json
+│   │   ├── nextjs.json
+│   │   ├── package.json
+│   │   ├── react-library.json
+│   │   └── README.md
+│   └── ui
+│       ├── components.json
+│       ├── eslint.config.mjs
+│       ├── package.json
+│       ├── postcss.config.mjs
+│       ├── README.md
+│       ├── src
+│       └── tsconfig.json
+├── pnpm-workspace.yaml
+├── README.md
+└── turbo.json
+
+9 directories, 32 files

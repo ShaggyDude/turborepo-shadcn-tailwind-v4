@@ -9,3 +9,13 @@
  * you can always add it with the @source directive.
  */
 @source '../../node_modules/@repo/ui';
+
+b {
+    display: block;
+    font-weight: unset;
+}
+
+s {
+    text-decoration: unset;
+}
+
